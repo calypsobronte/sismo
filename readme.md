@@ -1,6 +1,6 @@
 # Readme.md
 
-https://github.com/calypsobronte/sismo/
+[Repo](https://github.com/calypsobronte/sismo/)
 
 Python 3
 
