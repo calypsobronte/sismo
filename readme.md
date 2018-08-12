@@ -1,5 +1,7 @@
 # Readme.md
 
+https://github.com/calypsobronte/sismo/
+
 Python 3
 
 ## Install virtualenv
