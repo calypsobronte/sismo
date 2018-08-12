@@ -1,0 +1,66 @@
+
+
+
+#data{
+	float: right;
+    background-color: powderblue;
+    text-align: center;
+    width:  300px;
+}
+
+#fecha{
+	height: 100px;
+    margin: 0 0 0 0;
+    background-color: powderblue;
+    font-size: 20 px;
+}
+
+#hora{
+	height: 100px;
+    background-color: powderblue;
+    margin: 0 0 0 0;
+    font-size: 20 px;
+}
+
+#lugar{
+	height: 100px;
+    margin: 0 0 0 0;
+    background-color: powderblue;
+    font-size: 20 px;
+}
+
+#magnitud{
+	height: 100px;
+    margin: 0 0 0 0;
+    background-color: powderblue;
+    font-size: 20 px;
+}
+
+
+
+
+
+.subtitulo-hora{
+	height: 50px;
+    font-size: 25px;
+	background-color: rgb(97, 97, 255);
+	margin: 0 0 0 0;
+	padding-top: 15px;
+}
+
+
+.subtitulo{
+	height: 50px;
+    font-size: 25px;
+	background-color: rgb(97, 97, 255);
+	margin: 0 0 0 0;
+	padding-top: 15px;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}

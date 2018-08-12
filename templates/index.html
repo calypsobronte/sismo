@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="Inicio">
+    <meta property="og:site_name" content="Seismic Colombia">
+    <meta property="og:description" content="Desarrollamos tecnología que apunta a proteger a la población de los desastres sísmicos.">
+    <link rel="icon" type="image/png" href="{{ static_url('img/ico.png') }}">
+    <title>Seismic Colombia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ static_url('css/style.css') }}">
+</head>
+<body>
+    <div class="scroll-status"></div>
+    <section id="inicio" class="scrollspy">
+        <!--barra-->
+        <header class="barra">
+            <div class="navbar-fixed">
+                <nav id="nav" class="N/A transparent nav" role="navigation">
+                    <div class="nav-wrapper container">
+                        <a href="#" id="logo-container" class="brand-logo">Seismic Colombia</a>
+                        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+                        <ul class="right hide-on-med-and-down">
+                          <li class="current"><a href="#about" class="valign-wrapper">About</a></li>
+                          <li><a href="#seismic" class="valign-wrapper">Seismic Activity</a></li>
+                          <li><a href="#report" class="valign-wrapper">Report</a></li>
+                          <li><a href="#organizer" class="valign-wrapper">Organizer</a></li>
+                          <li><a href="#contact" class="valign-wrapper">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <!--Menu para moviles-->
+            <ul class="sidenav nav" id="mobile-demo">
+              <li class="current"><a href="#about">About</a></li>
+              <li><a href="#report">Report</a></li>
+              <li><a href="#organizer">Organizer</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="valign-wrapper white-text center-align text-barra">
+                <div class="container">
+                    <h1><strong>Seismic Colombia</strong></h1>
+                    <div class="row">
+                        <a href="/map" class="waves-effect waves-light btn-large light-blue lighten-2">Mapa</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </section>
+    <main>
+        <!--descripcion-->
+        <section id="about" class="section articulo scrollspy">
+            <div class="container row">
+                <div class="col s12 m12 l6">
+                    <h3><strong>.<span class="light-blue-text">.</span></strong></h3>
+                    <hr>
+                    <p>Monitoreo y análisis de la actividad sísmica y movimiento fuerte del país,
+                      así como la evaluación de la amenaza sísmica..</p>
+
+                </div>
+                <div class="col s12 m12 l6">
+                    <div class="card-pages valign-wrapper hoverable">
+                        <img src="{{ static_url('img/sis.jpg') }}" class="responsive-img imagen-pages" alt="imagen-prueba">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Report -->
+        <section id="report" class="articulo scrollspy">
+            <div class="container row">
+                <h3 class="center"><strong><span class="light-blue-text"></span>Report</strong></h3>
+                <hr>
+                <div class="col s12 m12 l5">
+                    <h5>Informar</h5>
+                </div>
+                <div class="col s12 m12 l7">
+                    <!--reporte de sismos por ususrios-->
+                </div>
+            </div>
+        </section>
+        <!--Organizadores-->
+        <section id="organizer" class="articulo scrollspy">
+            <div class="container row">
+                <h3 class="center"><strong><span class="light-blue-text">Our</span>Team</strong></h3>
+                <hr>
+                <div class="col s12 m12 l4">
+                    <div class="card card-person">
+                        <div class="card-image">
+                            <img src="{{ static_url('img/person.jpg') }}">
+                            <span class="card-title">Mileidy</span>
+                            <a class="btn-floating btn-large halfway-fab waves-effect waves-light light-blue lighten-2"><i class="material-icons right">more_vert</i></a>
+                        </div>
+                        <div class="card-content">
+                            <p>especialidad.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l4">
+                    <div class="card card-person">
+                        <div class="card-image">
+                            <img src="{{ static_url('img/person.jpg') }}">
+                            <span class="card-title">Valentina</span>
+                            <a class="btn-floating btn-large halfway-fab waves-effect waves-light light-blue lighten-2"><i class="material-icons right">more_vert</i></a>
+                        </div>
+                        <div class="card-content">
+                            <p>especialidad.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l4">
+                    <div class="card card-person">
+                        <div class="card-image">
+                            <img src="{{ static_url('img/person.jpg') }}">
+                            <span class="card-title">Yurley</span>
+                            <a class="btn-floating btn-large halfway-fab waves-effect waves-light light-blue lighten-2"><i class="material-icons right">more_vert</i></a>
+                        </div>
+                        <div class="card-content">
+                            <p>especialidad.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l4">
+                    <div class="card card-person">
+                        <div class="card-image">
+                            <img src="{{ static_url('img/person.jpg') }}">
+                            <span class="card-title">Lina</span>
+                            <a class="btn-floating btn-large halfway-fab waves-effect waves-light light-blue lighten-2"><i class="material-icons right">more_vert</i></a>
+                        </div>
+                        <div class="card-content">
+                            <p>especialidad.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l4">
+                    <div class="card card-person">
+                        <div class="card-image">
+                            <img src="{{ static_url('img/person.jpg') }}">
+                            <span class="card-title">Jorge</span>
+                            <a class="btn-floating btn-large halfway-fab waves-effect waves-light light-blue lighten-2"><i class="material-icons right">more_vert</i></a>
+                        </div>
+                        <div class="card-content">
+                            <p>especialidad.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--Donde mis clientes me contactan-->
+        <section id="contact" class="articulo scrollspy">
+            <div class="container row">
+                <h3 class="center"><strong>Contacta<span class="light-blue-text">nos</span></strong></h3>
+                <hr>
+                <div class="col s12 m12 l7">
+                    <div class="card card-contacto">
+                        <form action="#" method="post" href="#con">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="icon_prefix" name="name" type="text" class="validate">
+                                    <label for="icon_prefix"><strong>Nombre y apellido</strong></label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12 m6 l6">
+                                    <input id="icon_email" name="email" type="email" class="validate">
+                                    <label for="icon_email"><strong>Correo</strong></label>
+                                </div>
+                                <div class="input-field col s12 m6 l6">
+                                    <input id="icon_email" name="email" type="text" class="validate">
+                                    <label for="icon_email"><strong>Telefono</strong></label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <textarea id="icon_prefix2" name="message" class="materialize-textarea"></textarea>
+                                    <label for="icon_prefix2"><strong>Mensaje</strong></label>
+                                </div>
+                            </div>
+                            <div class="row center">
+                                <div class="input-field col s12">
+                                    <button class="btn waves-effect waves-light light-blue lighten-2" type="submit" name="enviar">
+                                        <Strong>Enviar mensaje</Strong>
+                                        <i class="material-icons right">send</i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col s12 m12 l5">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card card-datos-contacto">
+                                <i class="fas fa-envelope fa-2x"></i>
+                                <h5>Email</h5>
+                                <p>team@sismos.com</p>
+                            </div>
+                        </div>
+                        <div class="col s12">
+                            <div class="card card-datos-contacto">
+                                <i class="fas fa-phone fa-2x"></i>
+                                <h5>Telefonos</h5>
+                                <p>(+57)00000000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Pie de pagina-->
+        <footer class="page-footer grey darken-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12  center">
+                        <a class="white-text" href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a class="white-text" href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+                        <a class="white-text" href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright center">
+                <div class="container">
+                    De LATAM con el ❤
+                </div>
+            </div>
+        </footer>
+    </main>
+    <!--IMPORTAR JSs JQUERY Y MATERIALIZE-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.0.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="{{ static_url('js/jquery.nav.js') }}"></script>
+    <script src="{{ static_url('js/inicializar.js') }}"></script>
+</body>
+</html>
